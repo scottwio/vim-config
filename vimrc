@@ -33,8 +33,8 @@ Plugin 'gmarik/vundle'			 						" Plugin installer
 Plugin 'scrooloose/nerdtree' 						" Sidebar
 Plugin 'jistr/vim-nerdtree-tabs'				" Sidebar same in all tabs
 Plugin 'mileszs/ack.vim' 								" Fast search
-Plugin 'townk/vim-autoclose'		 				" Auto close tags
 Plugin 'mattn/emmet-vim'								" Emmit for vim
+Plugin 'Raimondi/delimitMate'           " Auto close tags
 Plugin 'scrooloose/nerdcommenter'				" Commenting
 Plugin 'caike/snipmate.vim'							" Snipper Manager
 Plugin 'tpope/vim-surround'							" Sounds the current word with something
@@ -110,7 +110,7 @@ let g:Powerline_symbols = 'fancy'
 set laststatus=2 												" force powerline
 
 highlight clear SignColumn  				    " SignColumn should match background
-highlight clear LineNr          				" Current line number row will have same background color in relative 
+highlight clear LineNr          				" Current line number row will have same background color in relative
 
 let g:hybrid_use_Xresources = 1
 colorscheme hybrid             					" Load a colorscheme
